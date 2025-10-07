@@ -434,8 +434,8 @@ GameObject:
   - component: {fileID: 1817726165}
   - component: {fileID: 1817726164}
   - component: {fileID: 1817726163}
-  - component: {fileID: 1817726166}
   - component: {fileID: 1817726167}
+  - component: {fileID: 1817726168}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -509,20 +509,6 @@ Transform:
   - {fileID: 1435324844}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1817726166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817726162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d67a31cead4b5a4db8362213eecaf5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 3.5
-  RotationSpeed: 0
 --- !u!114 &1817726167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,6 +521,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbadfe5e9fc6cc4988fc2781aec7c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1817726168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817726162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0425821856be42439a6d7bca507b7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 3.5
+  RotationSpeed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

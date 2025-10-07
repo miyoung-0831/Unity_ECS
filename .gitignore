@@ -18,6 +18,7 @@ sysinfo.txt
 # Unity Cache  #
 # ============ #
 UserSettings/
+Assets/SceneDependencyCache/
 *.pidb
 *.pdb
 *.mdb
