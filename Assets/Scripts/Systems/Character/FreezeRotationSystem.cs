@@ -11,7 +11,7 @@ public partial struct FreezeRotationSystem : ISystem
     {
         foreach (var (mass, velocity) in SystemAPI
             .Query<RefRW<PhysicsMass>, RefRW<PhysicsVelocity>>()
-            .WithAll<PlayerTag>())
+            .WithAll<CharacterTag>())
         {
             mass.ValueRW.InverseInertia = float3.zero;
             velocity.ValueRW.Angular = float3.zero;
